@@ -154,7 +154,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5rem;
-    width: 40%;
+    width: 45%;
     // background-color: yellow;
     .header {
       img {

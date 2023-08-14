@@ -30,19 +30,26 @@ export default {
 <style lang="scss">
 .app {
   padding: 0em 5em;
-  background-color: #161d31;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 228, 202, 1) 4%,
+    rgba(236, 178, 255, 1) 100%
+  );
   width: 100%;
   position: relative;
   color: #d0d2d6;
   .main-content {
-    width: 60%;
-    background-color: red;
+    width: 45%;
+    background-color: #f5f5f5;
     position: relative;
   }
-  height: 100vh;
 }
 #content {
   // height: 100vh;
+  z-index: 99999;
+  position: relative;
+  top: -3rem;
+  min-height: 78vh;
   overflow-y: auto;
   &::-webkit-scrollbar {
     width: 6px;

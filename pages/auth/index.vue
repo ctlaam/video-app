@@ -122,7 +122,7 @@ export default {
     background-image: url("../../assets/logo/background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
+    width: 45%;
     background-color: red;
     .header {
       img {
